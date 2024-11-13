@@ -1,0 +1,301 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.1.0",
+  "pathMappings": {
+    "@acme/login": [
+      "libs/login/src/index.ts"
+    ],
+    "@acme/login/server": [
+      "libs/login/src/server.ts"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "17866138117546000433"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "16877376182141465221"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "16448050467312557263"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "16884713733442577066"
+      },
+      {
+        "file": "README.md",
+        "hash": "10522904076293424022"
+      },
+      {
+        "file": "apps/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "babel.config.json",
+        "hash": "5546405625092116747"
+      },
+      {
+        "file": "libs/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "nx.json",
+        "hash": "5549680956735783826"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "1727099207894166103"
+      },
+      {
+        "file": "package.json",
+        "hash": "262821756974884931"
+      },
+      {
+        "file": "tools/tsconfig.tools.json",
+        "hash": "16088922570277978783"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "11016431558800523814"
+      }
+    ],
+    "projectFileMap": {
+      "myapp-e2e": [
+        {
+          "file": "apps/myapp-e2e/.eslintrc.json",
+          "hash": "14060216369337943343"
+        },
+        {
+          "file": "apps/myapp-e2e/cypress.config.ts",
+          "hash": "15414076024138857470",
+          "deps": [
+            "npm:cypress",
+            "npm:@nx/cypress"
+          ]
+        },
+        {
+          "file": "apps/myapp-e2e/project.json",
+          "hash": "3455885112824166059"
+        },
+        {
+          "file": "apps/myapp-e2e/src/e2e/app.cy.ts",
+          "hash": "6288412373227457995"
+        },
+        {
+          "file": "apps/myapp-e2e/src/fixtures/example.json",
+          "hash": "11614668686582597233"
+        },
+        {
+          "file": "apps/myapp-e2e/src/support/commands.ts",
+          "hash": "7314691991044890572"
+        },
+        {
+          "file": "apps/myapp-e2e/src/support/e2e.ts",
+          "hash": "6300059855680040947"
+        },
+        {
+          "file": "apps/myapp-e2e/tsconfig.json",
+          "hash": "1788248097864730386"
+        }
+      ],
+      "login": [
+        {
+          "file": "libs/login/.eslintrc.json",
+          "hash": "11012487992710232822"
+        },
+        {
+          "file": "libs/login/README.md",
+          "hash": "10594177646548155343"
+        },
+        {
+          "file": "libs/login/project.json",
+          "hash": "17145920870388929261"
+        },
+        {
+          "file": "libs/login/src/index.ts",
+          "hash": "6250972188972077537"
+        },
+        {
+          "file": "libs/login/src/lib/admin/admin.loader.ts",
+          "hash": "15774037388201259204",
+          "deps": [
+            "npm:@remix-run/node"
+          ]
+        },
+        {
+          "file": "libs/login/src/lib/login.module.css",
+          "hash": "125145030238681982"
+        },
+        {
+          "file": "libs/login/src/lib/login.spec.tsx",
+          "hash": "2304635682265206053",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "libs/login/src/lib/login.tsx",
+          "hash": "3373197332240924452"
+        },
+        {
+          "file": "libs/login/src/server.ts",
+          "hash": "2132988951268798671"
+        },
+        {
+          "file": "libs/login/src/test-setup.ts",
+          "hash": "6496144330376587096",
+          "deps": [
+            "npm:@remix-run/node",
+            "npm:@testing-library/jest-dom"
+          ]
+        },
+        {
+          "file": "libs/login/tsconfig.json",
+          "hash": "2489232487670819895"
+        },
+        {
+          "file": "libs/login/tsconfig.lib.json",
+          "hash": "15939002615626841995"
+        },
+        {
+          "file": "libs/login/tsconfig.spec.json",
+          "hash": "14243795351211638914"
+        },
+        {
+          "file": "libs/login/vite.config.ts",
+          "hash": "5680107493365102280",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:vite-tsconfig-paths"
+          ]
+        }
+      ],
+      "myapp": [
+        {
+          "file": "apps/myapp/.gitignore",
+          "hash": "14567294240656278501"
+        },
+        {
+          "file": "apps/myapp/README.md",
+          "hash": "18159605457777093374"
+        },
+        {
+          "file": "apps/myapp/app/root.tsx",
+          "hash": "6486874275605499715",
+          "deps": [
+            "npm:@remix-run/node",
+            "npm:@remix-run/react"
+          ]
+        },
+        {
+          "file": "apps/myapp/app/routes/admin.tsx",
+          "hash": "17397668734819213017",
+          "deps": [
+            "npm:@remix-run/node",
+            "npm:@remix-run/react",
+            "login"
+          ]
+        },
+        {
+          "file": "apps/myapp/app/routes/index.tsx",
+          "hash": "9011262502078922598",
+          "deps": [
+            "login"
+          ]
+        },
+        {
+          "file": "apps/myapp/app/styles/admin.css",
+          "hash": "10455029503441824016"
+        },
+        {
+          "file": "apps/myapp/package.json",
+          "hash": "12248497870486382800",
+          "deps": [
+            "npm:@remix-run/dev",
+            "npm:@remix-run/eslint-config",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:eslint",
+            "npm:typescript",
+            "npm:@remix-run/node",
+            "npm:@remix-run/react",
+            "npm:@remix-run/serve",
+            "npm:isbot",
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/myapp/project.json",
+          "hash": "15087495318382026704"
+        },
+        {
+          "file": "apps/myapp/public/favicon.ico",
+          "hash": "3730367829618743876"
+        },
+        {
+          "file": "apps/myapp/remix.config.js",
+          "hash": "4716810793694026315",
+          "deps": [
+            "npm:@nx/remix"
+          ]
+        },
+        {
+          "file": "apps/myapp/remix.env.d.ts",
+          "hash": "3987561439116594852"
+        },
+        {
+          "file": "apps/myapp/test-setup.ts",
+          "hash": "6496144330376587096",
+          "deps": [
+            "npm:@remix-run/node",
+            "npm:@testing-library/jest-dom"
+          ]
+        },
+        {
+          "file": "apps/myapp/tests/index.test.tsx",
+          "hash": "14224432278617299765",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/myapp/tsconfig.json",
+          "hash": "5566714537750919001"
+        },
+        {
+          "file": "apps/myapp/tsconfig.spec.json",
+          "hash": "14243795351211638914"
+        },
+        {
+          "file": "apps/myapp/vite.config.ts",
+          "hash": "18382914386949057416",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:vite-tsconfig-paths"
+          ]
+        }
+      ]
+    }
+  }
+}

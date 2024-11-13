@@ -1,0 +1,28 @@
+{
+  "targetDefaults": {
+    "lint": {
+      "inputs": [
+        "default",
+        "{workspaceRoot}/.eslintrc.json",
+        "{workspaceRoot}/.eslintignore"
+      ]
+    },
+    "build": {
+      "cache": true
+    },
+    "e2e": {
+      "cache": true
+    },
+    "@nx/eslint:lint": {
+      "inputs": [
+        "default",
+        "{workspaceRoot}/.eslintrc.json",
+        "{workspaceRoot}/.eslintignore"
+      ],
+      "cache": true
+    }
+  },
+  "useInferencePlugins": false,
+  "defaultBase": "main",
+  "useLegacyCache": true
+}

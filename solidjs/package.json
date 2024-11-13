@@ -1,0 +1,41 @@
+{
+  "name": "@acme/source",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "devDependencies": {
+    "@nx/cypress": "20.1.0",
+    "@nx/eslint-plugin": "20.1.0",
+    "@nx/js": "20.1.0",
+    "@nx/vite": "20.1.0",
+    "@nx/web": "20.1.0",
+    "@nx/workspace": "20.1.0",
+    "@swc/core": "1.5.7",
+    "@types/node": "18.16.9",
+    "@typescript-eslint/eslint-plugin": "7.18.0",
+    "@typescript-eslint/parser": "7.18.0",
+    "@vitest/coverage-c8": "~0.32.0",
+    "@vitest/ui": "0.34.7",
+    "cypress": "13.15.2",
+    "eslint": "8.57.1",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-plugin-cypress": "2.15.1",
+    "jsdom": "~22.1.0",
+    "nx": "20.1.0",
+    "prettier": "^2.6.2",
+    "solid-devtools": "^0.27.3",
+    "swc-loader": "0.1.15",
+    "typescript": "5.5.4",
+    "vite": "^5.0.0",
+    "vite-plugin-dts": "~2.3.0",
+    "vite-plugin-solid": "^2.7.0",
+    "vite-tsconfig-paths": "~4.2.0",
+    "vitest": "0.34.6",
+    "@nx/eslint": "20.1.0"
+  },
+  "dependencies": {
+    "solid-js": "^1.7.8",
+    "tslib": "^2.3.0"
+  }
+}

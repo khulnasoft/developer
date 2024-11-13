@@ -1,0 +1,30 @@
+{
+  "name": "integrated",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/jest": "29.5.14",
+    "@types/node": "18.19.9",
+    "@typescript-eslint/eslint-plugin": "7.18.0",
+    "@typescript-eslint/parser": "7.18.0",
+    "eslint": "8.57.1",
+    "eslint-config-prettier": "9.0.0",
+    "jest": "29.7.0",
+    "jest-environment-jsdom": "29.7.0",
+    "nx": "20.1.0",
+    "prettier": "^2.6.2",
+    "ts-jest": "29.1.1",
+    "ts-node": "10.9.1",
+    "typescript": "5.5.4",
+    "@nx/workspace": "20.1.0",
+    "@nx/js": "20.1.0",
+    "@nx/eslint-plugin": "20.1.0",
+    "@nx/jest": "20.1.0",
+    "@nx/eslint": "20.1.0"
+  }
+}

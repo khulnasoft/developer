@@ -1,0 +1,42 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@storybook-publishing-strategies-multiple-frameworks/admin-ui-footer": [
+        "libs/admin/ui/footer/src/index.ts"
+      ],
+      "@storybook-publishing-strategies-multiple-frameworks/admin-ui-header": [
+        "libs/admin/ui/header/src/index.ts"
+      ],
+      "@storybook-publishing-strategies-multiple-frameworks/client-ui-footer": [
+        "libs/client/ui/footer/src/index.ts"
+      ],
+      "@storybook-publishing-strategies-multiple-frameworks/client-ui-header": [
+        "libs/client/ui/header/src/index.ts"
+      ],
+      "@storybook-publishing-strategies-multiple-frameworks/storybook-host": [
+        "storybook-host/src/index.ts"
+      ],
+      "@storybook-publishing-strategies-multiple-frameworks/storybook-host-angular": [
+        "storybook-host-angular/src/index.ts"
+      ],
+      "@storybook-publishing-strategies-multiple-frameworks/storybook-host-react": [
+        "storybook-host-react/src/index.ts"
+      ]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
